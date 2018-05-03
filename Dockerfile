@@ -19,4 +19,4 @@ RUN wget -c http://apache.tt.co.kr//activemq/5.15.3/apache-activemq-5.15.3-bin.t
 # port mapping
 EXPOSE 8161 61616 5672 61613 1883 61614
 
-CMD apache-activemq-5.15.3/bin/activemq start
+#CMD apache-activemq-5.15.3/bin/activemq start
